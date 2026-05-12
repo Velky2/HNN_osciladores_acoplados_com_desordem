@@ -1,0 +1,1 @@
+# HNN_osciladores_acoplados_com_desordem
