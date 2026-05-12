@@ -1,6 +1,7 @@
 # HNN_osciladores_acoplados_com_desordem
 
 Ordem:
+
 1)hnn.ipynb
 
 2)optuna.ipynb
