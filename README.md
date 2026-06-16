@@ -1,6 +1,6 @@
 # Otimização de Hiperparâmetros de Redes Neurais Hamiltonianas para Osciladores Acoplados com Desordem
 
-Comparação de três estratégias de otimização de hiperparâmetros (HPO) — **Optuna/TPE**, **CMA-ES** e **TuRBO** — aplicadas ao treinamento de **Redes Neurais Hamiltonianas (HNNs)** em um sistema de `N = 8` osciladores não linearmente acoplados com desordem aleatória congelada (intensidade da desordem `σ_J`). O sistema desordenado é um análogo clássico e contínuo do modelo de spin-glass de Sherrington–Kirkpatrick.
+Comparação de três estratégias de otimização de hiperparâmetros (HPO), **Optuna/TPE**, **CMA-ES** e **TuRBO**, aplicadas ao treinamento de **Redes Neurais Hamiltonianas (HNNs)** em um sistema de `N = 8` osciladores não linearmente acoplados com desordem aleatória congelada (intensidade da desordem `σ_J`). O sistema desordenado é um análogo clássico e contínuo do modelo de spin-glass de Sherrington–Kirkpatrick.
 
 ## Visão geral
 
@@ -37,11 +37,6 @@ Um módulo compartilhado `common.py` cuida da simulação física e da geração
 - [XGBoost](https://xgboost.ai/) e [SHAP](https://github.com/shap/shap) (interpretabilidade)
 - Jupyter / JupyterLab
 
-Instalação:
-
-```bash
-pip install torch numpy scipy optuna cma botorch xgboost shap jupyter
-```
 
 ## Referências
 
